@@ -4,5 +4,6 @@ RUN mkdir -p /usr/local/app
 WORKDIR /usr/local/app
 
 COPY . .
+RUN npm i
 
 CMD ["npm", "start"]
